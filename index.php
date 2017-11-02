@@ -10,8 +10,8 @@ Usage:
 // Configuration
 $max_upload_filesize_in_mb = 50;
 $max_memory_in_mb = 256;
-$phpini = dirname(__file__).'/php.ini';
-$incoming_folder = dirname(__file__).'/incoming';
+$phpini = dirname(__file__).DIRECTORY_SEPARATOR.'php.ini';
+$incoming_folder = dirname(__file__).DIRECTORY_SEPARATOR.'incoming';
 
 // Create incoming folder
 if(!is_dir($incoming_folder)) {
