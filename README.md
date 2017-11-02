@@ -14,3 +14,5 @@ Serve an upload form using PHP's built-in web server. Useful when you need a qui
 php index.php # generated php.ini
 php -s 0.0.0.0:8080 -c php.ini # serve upload form
 ```
+## Note
+PHP's built-in web server should not be used on a public network, also see: http://php.net/manual/en/features.commandline.webserver.php
