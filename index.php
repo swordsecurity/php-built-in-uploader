@@ -39,7 +39,7 @@ memory_limit = '.$max_memory_in_mb.'M
 
 // Check for file upload
 if(isset($_FILES['fileToUpload'])) {
-    $target_file = $incoming_folder.'/'.basename($_FILES["fileToUpload"]["name"]);
+    $target_file = $incoming_folder.DIRECTORY_SEPARATOR.basename($_FILES["fileToUpload"]["name"]);
     if(move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file)) {
         echo 'upload complete';
     } else {
