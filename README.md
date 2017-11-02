@@ -1,4 +1,6 @@
 # Built-in uploader
+
+![built-in uploader](thumbnail.png)
 Serve an upload form using PHP's built-in web server. Useful when you need a quick way to upload files to another device.
 
 ## Features
