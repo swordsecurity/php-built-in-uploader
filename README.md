@@ -1,5 +1,5 @@
 # Built-in uploader
-Serve an upload form using PHP's built-in web server. Usefull when you need a quick way to upload files to another device.
+Serve an upload form using PHP's built-in web server. Useful when you need a quick way to upload files to another device.
 
 ## Features
 - Everything you need in one PHP file
