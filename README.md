@@ -2,7 +2,7 @@
 
 ![built-in uploader](thumbnail.png)
 
-Serve an upload form using PHP's built-in web server. Useful when you need a quick way to upload files to another device.
+Serve an upload form using PHP's built-in web server. Useful when you need a quick way to upload files to another device over the (local) network.
 
 ## Features
 - Everything you need in one PHP file
@@ -11,8 +11,8 @@ Serve an upload form using PHP's built-in web server. Useful when you need a qui
 
 ## Usage
 ```
-php index.php # generated php.ini
-php -s 0.0.0.0:8080 -c php.ini # serve upload form
+php index.php # generates php.ini
+php -s 0.0.0.0:8080 -c php.ini # start server
 ```
 ## Note
 PHP's built-in web server should not be used on a public network, also see: http://php.net/manual/en/features.commandline.webserver.php
